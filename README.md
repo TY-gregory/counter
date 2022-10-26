@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   
 
@@ -50,4 +51,6 @@ Here is the * [link](https://counter-js-basic-project.netlify.app/)
 ## Links & Contacts
 
 [@Gregorio Bruni](/) - gregoriobruni96@gmail.com
+=======
+>>>>>>> c7ebf9fee01868a935274f5d6bd90d78b4185e65
 
