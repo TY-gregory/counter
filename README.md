@@ -20,12 +20,6 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li></a></li>
-        <li></a></li>
-      </ul>
-    </li>
-    </li>
     <li><a href="#links-contacts">Links & Contacts</a></li>
   </ol>
 </details>
@@ -50,7 +44,6 @@ Here is the * [link](https://counter-js-basic-project.netlify.app/)
 
 ## Links & Contacts
 
-[@Gregorio Bruni ](/) - gregoriobruni96@gmail.com
-=======
->>>>>>> c7ebf9fee01868a935274f5d6bd90d78b4185e65
+[@Gregorio Bruni ](gregoriobruni96@gmail.com)
+
 
