@@ -44,7 +44,7 @@ This application , performs the simple functions of a counter , pressing on the 
 
 ## Getting Started
 Are you curious to try my Counter ? quick and intuitive 
-Here is the * [link](https://counter-js-basic-project.netlify.app/)
+Here is the * [link](https://app.netlify.com/sites/js-base-counter-2time/settings/general)
 
 
 
