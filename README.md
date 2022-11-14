@@ -1,6 +1,4 @@
-
 <p align="center">
-  
 
   <h3 align="center">COUNTER</h3>
 
@@ -21,11 +19,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li></a></li>
-        <li></a></li>
       </ul>
-    </li>
-    </li>
     <li><a href="#links-contacts">Links & Contacts</a></li>
   </ol>
 </details>
@@ -36,19 +30,15 @@ This application , performs the simple functions of a counter , pressing on the 
 
 ### Built With
 
-* [HTML 5](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
-* [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
-
-
+- [HTML 5](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+- [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=it)
 
 ## Getting Started
-Are you curious to try my Counter ? quick and intuitive 
-Here is the  [link](https://js-base-counter-2time.netlify.app/)
 
-
+Are you curious to try my Counter ? quick and intuitive
+Here is the [link](https://js-base-counter-2time.netlify.app/)
 
 ## Links & Contacts
 
-<<<<<<< HEAD
-[@Gregorio Bruni ](/) - gregoriobruni96@gmail.com
+[@Gregorio Bruni ](https://github.com/TY-gregory) - gregoriobruni96@gmail.com
