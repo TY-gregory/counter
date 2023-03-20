@@ -2,9 +2,6 @@
 
   <h3 align="center">COUNTER</h3>
 
-  <p align="center">
-   COUNTER
-  </p>
 </p>
 
 <details open="open">
@@ -37,7 +34,7 @@ This application , performs the simple functions of a counter , pressing on the 
 ## Getting Started
 
 Are you curious to try my Counter ? quick and intuitive
-Here is the [link](https://js-base-counter-2time.netlify.app/)
+Here is the [link](https://counter-app-js-base-project.netlify.app/)
 
 ## Links & Contacts
 
