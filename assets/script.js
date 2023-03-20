@@ -1,55 +1,36 @@
-/// dynamic var///
+/// call var///
+let containerCounter = document.querySelector(".counter");
+let containerControl = document.querySelector(".buttons");
+let number = 0;
 
-let titleCounter = document.querySelector('#tit')
+/// create dynamic  element////
+let createElement = (tag, className, content) => {
+  let newEl = document.createElement(tag);
+  newEl.innerHTML = content;
+  newEl.classList.add(className);
+  newEl.setAttribute("id", className);
+  return newEl;
+};
 
-let counter = document.createElement('div');
-counter.className = "counterNun";
-counter.innerHTML = 0;
-titleCounter.after(counter);
+containerCounter.appendChild(createElement("div", "counter", 0));
+containerControl.appendChild(createElement("button", "plus", "+"));
+containerControl.appendChild(createElement("button", "reset", "Reset"));
+containerControl.appendChild(createElement("button", "minus", "-"));
 
-let boxButton = document.createElement('div');
-boxButton.className = "button";
-counter.after(boxButton);
-
-let plus = document.createElement('div');
-plus.className = "operator";
-plus.innerHTML = "+";
-boxButton.prepend(plus);
-
-
-let minus = document.createElement('div');
-minus.className = "operator";
-minus.innerHTML = "-";
-boxButton.prepend(minus);
-
-let reset = document.createElement('div');
-reset.className = "reset";
-reset.innerHTML = "RESET";
-boxButton.after(reset);
-
-
-////// function //////
-
-function plusnumber() {
-    counter.innerHTML = +(counter.innerHTML) + 1; 
-    
-  };
-  
-  
-  function minusnumber() {
-    counter.innerHTML = +(counter.innerHTML) - 1;
-    
-  };
-  
-  
-  function resetnumber() {
-    counter.innerHTML = 0;
-   
-  };
-
-
-  //// add event////
-  
-  plus.addEventListener('click', plusnumber);
-  minus.addEventListener('click', minusnumber);
-  reset.addEventListener('click', resetnumber);
+/// event delegation///
+const div = document.querySelector("div");
+div.addEventListener("click", (event) => {
+  const target = event.target;
+  if (target.className === "plus") {
+    number += 1;
+    counter.innerHTML = number;
+  }
+  if (target.className === "minus") {
+    number -= 1;
+    counter.innerHTML = number;
+  }
+  if (target.className === "reset") {
+    number = 0;
+    counter.innerHTML = number;
+  }
+});
