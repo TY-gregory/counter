@@ -103,8 +103,8 @@ footer {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
 }
-/*
-@media screen and (min-width: 350px) and (max-width: 1025px) {
+
+@media screen and (min-width: 375px) and (max-width: 1500px) {
   body {
     margin-top: 5px;
     padding: 0;
@@ -212,7 +212,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   body {
     margin: 0;
     padding: 0;
@@ -322,4 +322,3 @@ footer {
     font-size: 20px;
   }
 }
-*/
